@@ -17,7 +17,7 @@ const User = () => {
         .catch((err) => console.log(err));
     }
 
-    // fetchUsers();
+    fetchUsers();
   }, []);
 
   return (
@@ -29,7 +29,7 @@ const User = () => {
           <div className="col">
             <div className="card shadow">
               <div className="card-header border-0">
-                <h3 className="mb-0">User informations</h3>
+                <h3 className="mb-0">User Informations</h3>
               </div>
               <div className="table-responsive">
                 <table className="table align-items-center table-flush">
@@ -38,9 +38,6 @@ const User = () => {
                       <th>SL</th>
                       <th>Image</th>
                       <th>Name</th>
-                      <th>Email</th>
-                      <th>Gender</th>
-                      <th>Phone</th>
                     </tr>
                   </thead>
                   <tbody>
