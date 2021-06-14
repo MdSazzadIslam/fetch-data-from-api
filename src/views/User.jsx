@@ -17,8 +17,6 @@ const User = () => {
 
   useEffect(() => {
     async function fetchUsers() {
-      debugger;
-
       setLoading(true);
       await userService
         .getUsers()
