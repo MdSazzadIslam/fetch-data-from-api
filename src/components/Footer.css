@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  height: 50px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  background-color: #131921;
+  padding-top: 10px;
+}
+.footer h6 {
+  display: flex;
+  font-size: small;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+}
